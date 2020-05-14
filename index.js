@@ -2,6 +2,8 @@ var kittens = ["Milo", "Otis", "Garfield"]
 var destructivelyAppendKitten = (name) => {return kittens.push(name)}
 var destructivelyPrependKitten = (name) => {return kittens.unshift(name)}
 var destructivelyRemoveLastKitten = () => {kittens.pop()}
+var destructivelyRemoveFirstKitten = () => {return kittens.unshift()}
+
 
 
  //define your array here
