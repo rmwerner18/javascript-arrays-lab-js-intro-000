@@ -5,7 +5,8 @@ var destructivelyRemoveLastKitten = () => {return kittens.pop()}
 var destructivelyRemoveFirstKitten = () => {return kittens.shift()}
 var appendKitten = (name) => {return [...kittens, name]}
 var prependKitten = (name) => {return [name, ...kittens]}
-var removeLastKitten = (name) => {kittens.slice(0, kittens.length - 1); return kittens}
+var removeLastKitten = (name) => {console.log(kittens.slice(0, kittens.length - 1)); return kittens}
+
 
 
 
